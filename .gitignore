@@ -35,4 +35,5 @@ psycopg2/
 .terraform.lock.hcl
 terraform.rc
 hello-world.zip
+lambda-function.zip
 response.json
