@@ -5,10 +5,10 @@ This repository contains scripts to create Lambda function on AWS in a VPC that 
 ![alt text](https://github.com/MartinKratochvilProgramy/aws-lambda-blueprint/blob/master/img/Schema.svg?raw=true)
 
 # Install Lambda dependencies
-Lambda handler needs psycopg2 library to run, it has to be installed in .../hello-world/psycopg2 so it could be deployed to service.
+Lambda handler needs psycopg2 library to run, it has to be installed in .../lambda-function/psycopg2 so it could be deployed to service.
 
 ```
-cd ./terraform/hello-world
+cd ./lambda-function
 pip install -t ./psycopg2 psycopg2-binary 
 ```
 
